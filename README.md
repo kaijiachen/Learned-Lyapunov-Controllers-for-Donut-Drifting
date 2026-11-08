@@ -16,6 +16,7 @@ The untrained 9-state LQR is always evaluated alongside as a reference.
 
 - `model.py`: vehicle model (tires, chassis, path kinematics, actuator lags) and the drift equilibrium solver.
 - `train.py`: training, evaluation and export for the four cases. All hyperparameters are constants at the top.
+- Trained policies, experimental data and videos of the hardware trials: https://bit.ly/4iDxHoq
 
 ## Install
 
