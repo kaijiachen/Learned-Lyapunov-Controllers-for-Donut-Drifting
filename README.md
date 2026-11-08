@@ -33,10 +33,8 @@ python train.py --cases quad lqr_nn    # a subset
 python train.py --cases quad --steps 300 --quick    # smoke test, about a minute
 ```
 
-The paper uses seeds 0, 1, 3, 4 and 5:
-
 ```
-for s in 0 1 3 4 5; do python train.py --seed $s --out results/seed$s; done
+do python train.py --seed $s --out results/seed$s; done
 ```
 
 Each run writes to `--out` (default `results/`):
